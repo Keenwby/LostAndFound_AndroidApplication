@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Page -->
+    <string name="app_name">LostandFound</string>
+    <string name="action_settings">Settings</string>
+    <string name="signUp">Sign Up</string>
+    <string name="logIn">Log In</string>
+
+    <!-- Shared Strings -->
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+
+    <!-- Level_2: SignUp & LogIn -->
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="accountLogIn">User Name</string>
+    <string name="pwLogIn">Password</string>
+    <string name="forgetpw">Forget Password?</string>
+    <string name="pwSignUp">Retype Password</string>
+    <string name="ContactInfo">Contact Information</string>
+
+    <!-- Level_3: Create an Event -->
+    <string name="title_activity_create_event">CreateEventActivity</string>
+    <string name="iFound">I Found</string>
+    <string name="iLost">I Lost</string>
+    <string name="myProfile">         My Profile</string>
+
+    <!-- Level_4: Select a Tag -->
+    <string name="selectaTag">Please select a category by \n clicking the image</string>
+    <string name="title_activity_founder_selectatag">SelectActivity</string>
+    <string name="title_activity_owner_selectatag">Owner_SelectaTagActivity</string>
+    <string name="finder_tagNotFound">Not found? Please create a new Category here</string>
+    <string name="finder_createaTag">New Category</string>
+    <string name="finder_commonPropertyRadioButton">Common</string>
+    <string name="finder_valuablePropertyRadioButton">Valuable</string>
+    <string name="finder_value">Valuable or Common</string>
+
+    <!-- Level_5: Upload a found property -->
+    <string name="founder_location_1">Please share your location</string>
+    <string name="founder_location_2">Hint: Please add building and room if necessary.</string>
+    <string name="founder_location_3">Enter Here</string>
+    <string name="founder_time_1">Please share your time</string>
+    <string name="founder_photos">Please take 2 photos</string>
+    <string name="founder_upload">       Upload</string>
+    <string name="founder_preview">      Preview</string>
+    <string name="founder_questions_1">Please design 1 to 3 questions</string>
+    <string name="founder_questions_2">VALUABLE PROPERTY</string>
+    <string name="owner_questions_1"> Question 1 </string>
+    <string name="owner_questions_2"> Question 2 </string>
+    <string name="owner_questions_3"> Question 3 </string>
+    <string name="owner_questions">Please answer these questions</string>
+
+    <!-- Level_6: Event Complete -->
+    <string name="founder_eventComplete_1">Process Complete!</string>
+    <string name="founder_eventComplete_2">Thank you! Please wait for our notifications!</string>
+    <string name="owner_eventComplete_1">Request Received!</string>
+    <string name="owner_eventComplete_2">Please wait us to contact the founder!</string>
+
+    <!-- Level_7: Founder Check Answers -->
+    <string name="fail">Fail</string>
+    <string name="pass">Pass</string>
+    <string name="founder_checkAnswer">Please Check these answers</string>
+    <!-- Level 8: Owner test pass or fail -->
+    <string name="owner_pass_1">You have passed the test!</string>
+    <string name="owner_pass_2">Please confirm your belongings </string>
+    <string name="owner_fail_1">You did not pass the test!</string>
+    <string name="owner_fail_2">You can request another test.</string>
+    <!-- Level 9: Owner get contact information -->
+    <string name="owner_getcontactinfo">6509605555</string>
+
+    <!-- Level_0: My Profile -->
+    <string name="editprofile_username">username</string>
+    <string name="editprofile_password">password</string>
+    <string name="editprofile_contactinfo">contactinfo</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="title_activity_founder__upload_1">Founder_Upload_1Activity</string>
+    <string name="title_activity_founder__upload_2">Founder_Upload_2Activity</string>
+    <string name="title_activity_founder__upload_3">Founder_Upload_3Activity</string>
+    <string name="title_activity_event_complete">EventCompleteActivity</string>
+    <string name="title_activity_owner__search">Owner_SearchActivity</string>
+    <string name="title_activity_owner__event_complete">Owner_EventCompleteActivity</string>
+    <string name="title_activity_owner__id_auth">Owner_IdAuthActivity</string>
+    <string name="title_activity_founder__answer_check">Founder_AnswerCheckActivity</string>
+    <string name="title_activity_owner__id_auth_pass">Owner_IdAuthPassActivity</string>
+    <string name="title_activity_owner__id_auth_fail">Owner_IdAuthFailActivity</string>
+    <string name="title_activity_owner__get_contact_info">Owner_GetContactInfoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_finder__upload_">Finder_Upload_Activity</string>
+    <string name="title_activity_owner__id_auth_resurlt">Owner_IdAuthResurltActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

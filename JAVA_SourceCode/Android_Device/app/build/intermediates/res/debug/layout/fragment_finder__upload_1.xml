@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank_3"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ui.finder.upload.Finder_Upload_1Fragment" >
+    
+    <!-- 1. Next Buttons -->
+    
+    <Button
+        android:id="@+id/founder_Upload_1Next_5Button"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textSize="10sp"
+        android:typeface="serif" />
+    
+    <!-- 2. Share location -->
+    <TextView
+       android:id="@+id/founder_Upload_1Location_1TextView"
+       android:layout_width="fill_parent"
+       android:layout_height="20dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="0dp"
+       android:gravity="center"
+       android:text="@string/founder_location_1"
+       android:textSize="15sp" />
+    
+    <Button
+        android:id="@+id/founder_Upload_1LocationButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/location" />
+    
+    <TextView
+       android:id="@+id/founder_Upload_1Location_3TextView"
+       android:layout_width="100dp"
+       android:layout_height="30dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="70dp"
+       android:layout_marginRight="30dp"
+       android:gravity="center"
+       android:text="@string/founder_location_3"
+       android:textSize="12sp" />
+    
+    <EditText
+       android:id="@+id/founder_Upload_1LocationEditText"
+       android:layout_width="100dp"
+       android:layout_height="30dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:layout_marginTop="100dp"
+       android:layout_marginRight="10dp"
+       android:background="@drawable/input"
+       android:ems="10"
+       android:textSize="12sp"
+       android:hint="    Building, Room"
+       android:singleLine="true" >
+
+       <requestFocus />
+   </EditText>
+
+    <!-- 3. Share time -->
+    <TextView
+       android:id="@+id/founder_Upload_1Time_1TextView"
+       android:layout_width="fill_parent"
+       android:layout_height="20dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_marginTop="150dp"
+       android:layout_marginLeft="0dp"
+       android:gravity="center"
+       android:text="@string/founder_time_1"
+       android:textSize="15sp" />
+
+    <DatePicker
+        android:id="@+id/founder_Upload_1datePicker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp" />
+
+    <TimePicker
+        android:id="@+id/founder_Upload_1timePicker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/founder_Upload_1Location_2TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/founder_Upload_1Location_1TextView"
+        android:layout_below="@+id/founder_Upload_1Location_1TextView"
+        android:gravity="center"
+        android:text="@string/founder_location_2"
+        android:textSize="40sp" />
+    
+</RelativeLayout>
+<!-- From: file:/Users/wangbaiyang/Desktop/LostAndFound/app/src/main/res/layout/fragment_finder__upload_1.xml -->

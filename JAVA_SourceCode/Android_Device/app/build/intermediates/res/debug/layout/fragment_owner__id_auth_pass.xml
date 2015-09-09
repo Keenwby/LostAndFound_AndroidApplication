@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ui.owner.Owner_IdAuthPassFragment"
+    android:background="@drawable/testpass" >
+    
+    <!-- Next & Back Buttons -->
+    <Button
+        android:id="@+id/owner_IdAuthPassBack_8Button"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Oops! It's not!"
+        android:textSize="10sp"
+        android:typeface="serif" />
+    
+    <Button
+        android:id="@+id/owner_IdAuthPassNext_8Button"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Yep! It's mine!"
+        android:textSize="10sp"
+        android:typeface="serif" />
+    <!-- Images -->
+    <ImageView
+        android:id="@+id/owner_IdAuthPassimageView1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/uploadpicture" />
+    
+    <ImageView
+        android:id="@+id/owner_IdAuthPassimageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/uploadpicture" />
+
+    <TextView
+        android:id="@+id/owner_IdAuthPassTextView2"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/owner_IdAuthPassTextView1"
+        android:layout_below="@+id/owner_IdAuthPassTextView1"
+        android:gravity="center"
+        android:text="@string/owner_pass_2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/owner_IdAuthPassTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/owner_IdAuthPassBack_8Button"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/owner_pass_1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+<!-- From: file:/Users/wangbaiyang/Desktop/LostAndFound/app/src/main/res/layout/fragment_owner__id_auth_pass.xml -->

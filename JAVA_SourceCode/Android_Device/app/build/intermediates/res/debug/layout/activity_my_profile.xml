@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ui.shared.MyProfileActivity"
+    android:background="@drawable/editmyprofile" >
+    
+    <Button
+        android:id="@+id/editmyProfileBack_0Button"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textSize="10sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/editmyprofileSubmit_0Button"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/myprofile"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/myProfile"
+        android:textSize="8sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/editmyprofileCheck_0Button"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="CHECK MY EVENTS"
+        android:textSize="15sp"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp" />
+    
+    <!-- Profile Information -->
+    
+    <!-- 3. Answer Check Lists -->
+    <TextView
+        android:id="@+id/myprofileUserNameTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:gravity="center" />
+    
+    <EditText
+        android:id="@+id/editmyprofileContactInfoEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="    Change Here"
+        android:singleLine="true" />
+    
+    <TextView
+        android:id="@+id/editmyprofileUserNameTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="UserName: " />
+    
+    <TextView
+        android:id="@+id/editmyprofileContactInfoTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Contact Information: " />
+
+    <TextView
+        android:id="@+id/editmyprofilePasswordTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/myprofileUserNameTextView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Password: "
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editmyprofilePasswordEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editmyprofilePasswordTextView"
+        android:layout_centerVertical="true"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="    Change Here"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editmyprofileRePasswordEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editmyprofilePasswordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="    Retype Password"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <FrameLayout
+        android:id="@+id/history_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    </FrameLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/wangbaiyang/Desktop/LostAndFound/app/src/main/res/layout/activity_my_profile.xml -->

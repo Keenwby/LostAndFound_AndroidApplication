@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lostandfound"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+         The following two permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/android"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="ui.shared.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ui.shared.SignUpFragment"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="ui.shared.LogInFragment"
+            android:label="@string/title_activity_log_in" >
+        </activity>
+        <activity
+            android:name="ui.shared.CreateEventActivity"
+            android:label="@string/title_activity_create_event" >
+        </activity>
+        <activity
+            android:name="ui.finder.Finder_SelectaTagFragment"
+            android:label="@string/title_activity_founder_selectatag" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_SelectaTagFragment"
+            android:label="@string/title_activity_owner_selectatag" >
+        </activity>
+        <activity
+            android:name="ui.shared.MyProfileActivity"
+            android:label="@string/title_activity_my_profile" >
+        </activity>
+        <activity
+            android:name="ui.finder.upload.Finder_Upload_1Fragment"
+            android:label="@string/title_activity_founder__upload_1"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="ui.finder.upload.Finder_Upload_2Fragment"
+            android:label="@string/title_activity_founder__upload_2" >
+        </activity>
+        <activity
+            android:name="ui.finder.upload.Finder_Upload_3Fragment"
+            android:label="@string/title_activity_founder__upload_3" >
+        </activity>
+        <activity
+            android:name="ui.finder.upload.Finder_EventCompleteActivity"
+            android:label="@string/title_activity_event_complete" >
+        </activity>
+        <activity
+            android:name="ui.owner.search.Owner_SearchFragment"
+            android:label="@string/title_activity_owner__search" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_EventCompleteActivity"
+            android:label="@string/title_activity_owner__event_complete" >
+        </activity>
+        <activity
+            android:name="ui.owner.search.Owner_IdAuthFragment"
+            android:label="@string/title_activity_owner__id_auth" >
+        </activity>
+        <activity
+            android:name="ui.finder.Finder_AnswerCheckActivity"
+            android:label="@string/title_activity_founder__answer_check" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_IdAuthPassFragment"
+            android:label="@string/title_activity_owner__id_auth_pass" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_IdAuthFailFragment"
+            android:label="@string/title_activity_owner__id_auth_fail" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_GetContactInfoFragment"
+            android:label="@string/title_activity_owner__get_contact_info" >
+        </activity>
+        <activity
+            android:name="ui.finder.upload.Finder_Upload_Activity"
+            android:label="@string/title_activity_finder__upload_"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="ui.owner.search.Owner_SearchActivity"
+            android:label="@string/title_activity_owner__search"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="ui.owner.Owner_IdAuthResultActivity"
+            android:label="@string/title_activity_owner__id_auth_resurlt" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDtn9_iA6hzK5OtAADDyEW5DBL43j-_V3c" />
+    </application>
+
+</manifest>
